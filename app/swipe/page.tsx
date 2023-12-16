@@ -55,9 +55,9 @@ export default function Swipe() {
                     whileTap={{ cursor: "grabbing" }}
                     dragTransition={{ bounceStiffness: 400, bounceDamping: 10 }}
                 >
-                    <Image id="image" src="/spoderman.jpg" alt="" width={380} height={633} draggable="false" />
+                    <Image id="image" src="/target.jpg" alt="" width={380} height={633} draggable="false" />
                     <div id="description">
-                        <span>title preferrably two size and long as fuck</span><br />
+                        <span>Strzelnica Kraków</span><br />
 
                         <span id="details">
                             <span>
