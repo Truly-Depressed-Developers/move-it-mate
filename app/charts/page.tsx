@@ -8,6 +8,7 @@ import { useCallback, useMemo, useState } from "react";
 import { LineChart } from "@mui/x-charts";
 import Box from "@mui/material/Box";
 import "./styles.scss";
+import { useRouter } from "next/router";
 
 enum ChartOption {
     comfort,
