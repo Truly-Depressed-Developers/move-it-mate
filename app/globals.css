@@ -29,3 +29,41 @@ a {
     color-scheme: dark;
   }
 }
+
+#home {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 60px);
+
+  #home-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+  }
+}
+
+#buttons {
+  margin: 7px 15px 2px 15px;
+  height: 50px;
+  width: calc(100% - 30px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 10px;
+  padding: 10px;
+
+  Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scale: 0.8;
+  }
+}
