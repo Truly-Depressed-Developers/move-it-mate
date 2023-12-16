@@ -11,6 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
     "@mui/material": "^5.15.0",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
